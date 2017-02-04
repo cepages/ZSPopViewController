@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod "ZSPop"
 ```
 
-## Author
-
-j-zhaozuotong, j-zhaozuotong@360.cn
-
 ## License
 
 ZSPop is available under the MIT license. See the LICENSE file for more info.
