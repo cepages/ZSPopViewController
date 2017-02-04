@@ -1,0 +1,22 @@
+{
+  "name": "ZSPop",
+  "version": "0.1.0",
+  "summary": "A short description of ZSPop.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/j-zhaozuotong/ZSPop",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "j-zhaozuotong": "j-zhaozuotong@360.cn"
+  },
+  "source": {
+    "git": "https://github.com/j-zhaozuotong/ZSPop.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZSPop/Classes/**/*"
+}

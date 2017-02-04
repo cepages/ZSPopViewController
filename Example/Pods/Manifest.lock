@@ -1,0 +1,16 @@
+PODS:
+  - ZSPop (0.1.0)
+
+DEPENDENCIES:
+  - ZSPop (from `../`)
+
+EXTERNAL SOURCES:
+  ZSPop:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZSPop: a35fdebf4f5f4e3fcea758177b8117518734188f
+
+PODFILE CHECKSUM: 795ec8b9dbe6f695d44f697dca6d9c223ef295c6
+
+COCOAPODS: 1.1.1
