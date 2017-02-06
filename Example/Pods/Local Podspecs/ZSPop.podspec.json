@@ -1,22 +1,28 @@
 {
   "name": "ZSPop",
-  "version": "0.1.0",
-  "summary": "A short description of ZSPop.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/j-zhaozuotong/ZSPop",
+  "version": "0.0.1",
+  "summary": "a category of UINavigationController for popping the appointed controller.",
+  "description": "a category of UINavigationController for popping the appointed controller.",
+  "homepage": "https://github.com/zuoshen123/ZSPopViewController",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "j-zhaozuotong": "j-zhaozuotong@360.cn"
+    "zuoshen123": "zuotong_zhao@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/j-zhaozuotong/ZSPop.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/zuoshen123/ZSPopViewController.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZSPop/Classes/**/*"
+  "source_files": "ZSPop/Classes/**/*",
+  "resource_bundles": {
+    "ZSPop": [
+      "ZSPop/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h"
 }

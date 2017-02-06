@@ -23,6 +23,12 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		91CD4A141E486DE300B5EE3F /* ZSTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD4A121E486DE300B5EE3F /* ZSTest1ViewController.m */; };
+		91CD4A151E486DE300B5EE3F /* ZSTest1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91CD4A131E486DE300B5EE3F /* ZSTest1ViewController.xib */; };
+		91CD4A1A1E486FBF00B5EE3F /* ZSTest2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD4A181E486FBF00B5EE3F /* ZSTest2ViewController.m */; };
+		91CD4A1B1E486FBF00B5EE3F /* ZSTest2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91CD4A191E486FBF00B5EE3F /* ZSTest2ViewController.xib */; };
+		91CD4A1F1E486FDF00B5EE3F /* ZSTest3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD4A1D1E486FDF00B5EE3F /* ZSTest3ViewController.m */; };
+		91CD4A201E486FDF00B5EE3F /* ZSTest3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91CD4A1E1E486FDF00B5EE3F /* ZSTest3ViewController.xib */; };
 		C207FFBEF576826D2883BCF6 /* Pods_ZSPop_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3304FEDBE61E7F9231722753 /* Pods_ZSPop_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,15 +64,24 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63533208F92E3F926099113E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		63533208F92E3F926099113E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BF9AF1C85917848E0147D44 /* Pods-ZSPop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSPop_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZSPop_Tests/Pods-ZSPop_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8D5BAA91C88653FC9D7ED37D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8D5BAA91C88653FC9D7ED37D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		91CD4A111E486DE300B5EE3F /* ZSTest1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSTest1ViewController.h; sourceTree = "<group>"; };
+		91CD4A121E486DE300B5EE3F /* ZSTest1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSTest1ViewController.m; sourceTree = "<group>"; };
+		91CD4A131E486DE300B5EE3F /* ZSTest1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZSTest1ViewController.xib; sourceTree = "<group>"; };
+		91CD4A171E486FBF00B5EE3F /* ZSTest2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSTest2ViewController.h; sourceTree = "<group>"; };
+		91CD4A181E486FBF00B5EE3F /* ZSTest2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSTest2ViewController.m; sourceTree = "<group>"; };
+		91CD4A191E486FBF00B5EE3F /* ZSTest2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZSTest2ViewController.xib; sourceTree = "<group>"; };
+		91CD4A1C1E486FDF00B5EE3F /* ZSTest3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSTest3ViewController.h; sourceTree = "<group>"; };
+		91CD4A1D1E486FDF00B5EE3F /* ZSTest3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSTest3ViewController.m; sourceTree = "<group>"; };
+		91CD4A1E1E486FDF00B5EE3F /* ZSTest3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZSTest3ViewController.xib; sourceTree = "<group>"; };
 		AE1326871FF3DF14DEE027C2 /* Pods-ZSPop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSPop_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZSPop_Tests/Pods-ZSPop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD3917EFFAB4680A4FC72C6C /* Pods-ZSPop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSPop_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZSPop_Example/Pods-ZSPop_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BDB07E6EF2B241EED2714940 /* Pods_ZSPop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSPop_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E531DF20A6F56B4119259DCF /* ZSPop.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZSPop.podspec; path = ../ZSPop.podspec; sourceTree = "<group>"; };
+		E531DF20A6F56B4119259DCF /* ZSPop.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZSPop.podspec; path = ../ZSPop.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +147,7 @@
 		6003F593195388D20070C39A /* Example for ZSPop */ = {
 			isa = PBXGroup;
 			children = (
+				91CD4A161E486DFA00B5EE3F /* TestController */,
 				6003F59C195388D20070C39A /* ZSAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZSAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -183,6 +199,22 @@
 				8D5BAA91C88653FC9D7ED37D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		91CD4A161E486DFA00B5EE3F /* TestController */ = {
+			isa = PBXGroup;
+			children = (
+				91CD4A111E486DE300B5EE3F /* ZSTest1ViewController.h */,
+				91CD4A121E486DE300B5EE3F /* ZSTest1ViewController.m */,
+				91CD4A131E486DE300B5EE3F /* ZSTest1ViewController.xib */,
+				91CD4A171E486FBF00B5EE3F /* ZSTest2ViewController.h */,
+				91CD4A181E486FBF00B5EE3F /* ZSTest2ViewController.m */,
+				91CD4A191E486FBF00B5EE3F /* ZSTest2ViewController.xib */,
+				91CD4A1C1E486FDF00B5EE3F /* ZSTest3ViewController.h */,
+				91CD4A1D1E486FDF00B5EE3F /* ZSTest3ViewController.m */,
+				91CD4A1E1E486FDF00B5EE3F /* ZSTest3ViewController.xib */,
+			);
+			name = TestController;
 			sourceTree = "<group>";
 		};
 		FEE095147DD5C2FD6A568160 /* Pods */ = {
@@ -250,6 +282,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "j-zhaozuotong";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZME756U69D;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -279,8 +315,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CD4A151E486DE300B5EE3F /* ZSTest1ViewController.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				91CD4A1B1E486FBF00B5EE3F /* ZSTest2ViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				91CD4A201E486FDF00B5EE3F /* ZSTest3ViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -394,9 +433,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CD4A1A1E486FBF00B5EE3F /* ZSTest2ViewController.m in Sources */,
 				6003F59E195388D20070C39A /* ZSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZSViewController.m in Sources */,
+				91CD4A1F1E486FDF00B5EE3F /* ZSTest3ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				91CD4A141E486DE300B5EE3F /* ZSTest1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,12 +566,16 @@
 			baseConfigurationReference = 2061F5D521FAE5F401FA2212 /* Pods-ZSPop_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZME756U69D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZSPop/ZSPop-Prefix.pch";
 				INFOPLIST_FILE = "ZSPop/ZSPop-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -539,12 +585,16 @@
 			baseConfigurationReference = BD3917EFFAB4680A4FC72C6C /* Pods-ZSPop_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZME756U69D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZSPop/ZSPop-Prefix.pch";
 				INFOPLIST_FILE = "ZSPop/ZSPop-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

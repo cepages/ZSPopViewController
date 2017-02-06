@@ -7,23 +7,36 @@
 //
 
 #import "ZSViewController.h"
+#import "ZSTest1ViewController.h"
 
 @interface ZSViewController ()
 
 @end
 
 @implementation ZSViewController
+    
+-(void) viewWillAppear:(BOOL)animated{
+//    self.navigationController.navigationBar.hidden = YES;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIButton* button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width - 110, 36);
+    [self.view addSubview:button];
+    button.center = self.view.center;
+    [button addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    [button setTitle:@"Start" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor lightGrayColor];
+    button.layer.masksToBounds = YES;
+    button.layer.cornerRadius = 10;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void) click:(UIButton*)sender{
+    ZSTest1ViewController* vc = [[ZSTest1ViewController alloc] initWithNibName:@"ZSTest1ViewController" bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

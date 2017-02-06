@@ -7,19 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		239FCFE34FA24DA5F790524DB2B3BBE4 /* ZSPop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5790BFAF869EC0427DAE37072EBE6 /* ZSPop-dummy.m */; };
-		2B0FA08332ED8C730CE5786BD3907D4E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C81590FDF7C4FD70B7FD43AD04D15D0C /* ReplaceMe.m */; };
+		0AD727A4FFDB4D74342161D8F1D42F50 /* UINavigationController+ZSPopCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A1976664C1AC1701B798263558B6CF03 /* UINavigationController+ZSPopCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35CEF7F77AD96C8F747D0BE4D668856B /* Pods-ZSPop_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3E0AC2A6B5B12C0CAEE455DDA3C17 /* Pods-ZSPop_Tests-dummy.m */; };
+		36D2C8CD1BE681DEC43A35E732BC0824 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE9A27C9D775B07137D4E60FE721A45 /* JRSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40990D4A86E458F6134EE250EEDF28D4 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 322E3F98EA5A4937D892294A9DD8607C /* JRSwizzle.m */; };
 		51DA39823539A736E766CFB4C7A0D956 /* Pods-ZSPop_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE3DDA43C3C1B139A40A20EF63A042 /* Pods-ZSPop_Example-dummy.m */; };
+		53E8E7ABD23562B9ACF93723A93B8900 /* ZSPop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 884A0AC72F55E14BB65D8DD01C98207F /* ZSPop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56532B99F1478AF15A0F1C8865C30ABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		7918E8C7F59184AD7A8BF5E0FA65D689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		7D9EF7B53E9344445CFC15A11EF0AA6C /* Pods-ZSPop_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C499BDC705D3FAF768AB506013184A /* Pods-ZSPop_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D08067DC6D6B0EF866CDE9FD3B5EF59F /* ZSPop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C34BF0976704C8312B1667C5B76C05 /* ZSPop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCAD94AFCD3370C86F0EDD71135F8B9C /* ZSPop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE09E81BF0E8D9092927017A732F74 /* ZSPop-dummy.m */; };
 		DF4D25EA927CBF2D47BB07A3142AA63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E1E336CA79979E0771F2E6ABB55C0A83 /* UINavigationController+ZSPopCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6218BBEADC1414044C314C234C4BE84C /* UINavigationController+ZSPopCategory.m */; };
+		F2E9C2DB746ACE1F9E7D4BF44CD9F65F /* ZSPop.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 831B1D19A0E71684D65774B37EACD266 /* ZSPop.bundle */; };
 		F74AE073A72681FCDC44AC84D4294F30 /* Pods-ZSPop_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0011A8BFAC55C50C5A25A7A9E69BC1F7 /* Pods-ZSPop_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5CD4400909E492137AD3EF7E749B7570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BA24504A8E98D3D5D7E3E5EA3EBC91;
+			remoteInfo = "ZSPop-ZSPop";
+		};
 		9F22ED66346093DC07FFCB49C157755D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -31,37 +42,42 @@
 
 /* Begin PBXFileReference section */
 		0011A8BFAC55C50C5A25A7A9E69BC1F7 /* Pods-ZSPop_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZSPop_Example-umbrella.h"; sourceTree = "<group>"; };
-		0C2C4A040F27E3B718AD240FDB120CBD /* Pods_ZSPop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSPop_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D4730A63F4EAB226451C898FDFF2A89 /* ZSPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZSPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		11C34BF0976704C8312B1667C5B76C05 /* ZSPop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSPop-umbrella.h"; sourceTree = "<group>"; };
 		12150F30104276B2600A6EDFB68AE56E /* Pods-ZSPop_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSPop_Example-resources.sh"; sourceTree = "<group>"; };
-		17F1C2CC09FBC882CF408A03BB536B13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B0A5575514733AE75758B7F94C574FE /* ZSPop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZSPop.modulemap; sourceTree = "<group>"; };
 		23DED8CF2C985AE09F5FFB14D2E69E07 /* Pods-ZSPop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSPop_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		248C108C36AAF52B4D478D631178A5F0 /* ResourceBundle-ZSPop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZSPop-Info.plist"; sourceTree = "<group>"; };
 		262E8F5606A73E4BD8F76FD3C09528E9 /* Pods-ZSPop_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSPop_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		31CC4AD0528B5FD1C83189B452E47C47 /* Pods-ZSPop_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZSPop_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		322E3F98EA5A4937D892294A9DD8607C /* JRSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		34716BC6B820BB79645EA18CAB53A7F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35EFA6C9744FD19D0F12035E7EDF6235 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBDDD34B933427E85FD29856C6003AF /* Pods_ZSPop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZSPop_Tests.framework; path = "Pods-ZSPop_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518867323AB43164537E74C331889F54 /* ZSPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZSPop.framework; path = ZSPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55683DE7736A957A8456287537F0E700 /* ZSPop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZSPop.modulemap; sourceTree = "<group>"; };
 		582016CEBE0AE494412CB2D1D8583CCF /* Pods-ZSPop_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSPop_Example-frameworks.sh"; sourceTree = "<group>"; };
 		583F4A6DBD7F78A8EBFA488C7460AAD6 /* Pods-ZSPop_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZSPop_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5C20C500F3BC36CBC175143C97280CA8 /* Pods-ZSPop_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZSPop_Example.modulemap"; sourceTree = "<group>"; };
+		5C20C500F3BC36CBC175143C97280CA8 /* Pods-ZSPop_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZSPop_Example.modulemap"; sourceTree = "<group>"; };
+		6218BBEADC1414044C314C234C4BE84C /* UINavigationController+ZSPopCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZSPopCategory.m"; sourceTree = "<group>"; };
 		64C21B34520C66F5B06A53309AE510D9 /* Pods-ZSPop_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSPop_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6AD3E0AC2A6B5B12C0CAEE455DDA3C17 /* Pods-ZSPop_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZSPop_Tests-dummy.m"; sourceTree = "<group>"; };
-		736A9967F264379F90D17F401E00F346 /* Pods_ZSPop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSPop_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABE09E81BF0E8D9092927017A732F74 /* ZSPop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZSPop-dummy.m"; sourceTree = "<group>"; };
 		7D96D0EC4E055346509DF4A2FF5A2896 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831B1D19A0E71684D65774B37EACD266 /* ZSPop.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZSPop.bundle; path = ZSPop.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C499BDC705D3FAF768AB506013184A /* Pods-ZSPop_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZSPop_Tests-umbrella.h"; sourceTree = "<group>"; };
 		87FE3DDA43C3C1B139A40A20EF63A042 /* Pods-ZSPop_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZSPop_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		884A0AC72F55E14BB65D8DD01C98207F /* ZSPop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSPop-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9610DE88BE4C1FA3290B3F84A62F6D56 /* ZSPop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSPop.xcconfig; sourceTree = "<group>"; };
+		A1976664C1AC1701B798263558B6CF03 /* UINavigationController+ZSPopCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZSPopCategory.h"; sourceTree = "<group>"; };
 		A65D7CF40A23C65A9EFC0250F0F0620C /* Pods-ZSPop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSPop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A675632FE71FE20D71E07537BC12F1AA /* Pods-ZSPop_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZSPop_Tests.modulemap"; sourceTree = "<group>"; };
-		AA6B6E8471005E2FDB311CA8946B8BB4 /* ZSPop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSPop-prefix.pch"; sourceTree = "<group>"; };
+		A675632FE71FE20D71E07537BC12F1AA /* Pods-ZSPop_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZSPop_Tests.modulemap"; sourceTree = "<group>"; };
+		AAE9A27C9D775B07137D4E60FE721A45 /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		AD28B3ED981D67D2C3309FE1829E2EA5 /* Pods-ZSPop_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSPop_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AE5168F221D0119D909B6B858F7EC6A3 /* Pods-ZSPop_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSPop_Tests-resources.sh"; sourceTree = "<group>"; };
-		C81590FDF7C4FD70B7FD43AD04D15D0C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4F20C934E69BF1695C1629A91E97BA1 /* Pods-ZSPop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSPop_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D9F5790BFAF869EC0427DAE37072EBE6 /* ZSPop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZSPop-dummy.m"; sourceTree = "<group>"; };
+		DBCF2D5DFFB598FEE61968CE98524860 /* ZSPop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSPop-prefix.pch"; sourceTree = "<group>"; };
+		E3463F06F5081AC9DB3C617B97DF3481 /* Pods_ZSPop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZSPop_Example.framework; path = "Pods-ZSPop_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D77BA624172925E35A69BC3A6606F5 /* Pods-ZSPop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSPop_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F6352E3EF67E94EDE0E12E9C5CDB99F6 /* ZSPop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSPop.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +86,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF4D25EA927CBF2D47BB07A3142AA63D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B85C3A81FEF1F1C4718A9396724E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,16 +115,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20F1EE928FEDB190629368755337E158 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0C2C4A040F27E3B718AD240FDB120CBD /* Pods_ZSPop_Example.framework */,
-				736A9967F264379F90D17F401E00F346 /* Pods_ZSPop_Tests.framework */,
-				0D4730A63F4EAB226451C898FDFF2A89 /* ZSPop.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6E9A87281492E22DA59F18D211FE8796 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,27 +156,44 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				DF32EEF377040235F08484E6468B0B1B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				20F1EE928FEDB190629368755337E158 /* Products */,
+				8B9DA59E04012951ADDB38A582663F9B /* Products */,
 				6E9A87281492E22DA59F18D211FE8796 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A8DB7DE1B46C73F41E9DA5C9FF30B6B1 /* Classes */ = {
+		8B9DA59E04012951ADDB38A582663F9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C81590FDF7C4FD70B7FD43AD04D15D0C /* ReplaceMe.m */,
+				E3463F06F5081AC9DB3C617B97DF3481 /* Pods_ZSPop_Example.framework */,
+				4BBDDD34B933427E85FD29856C6003AF /* Pods_ZSPop_Tests.framework */,
+				831B1D19A0E71684D65774B37EACD266 /* ZSPop.bundle */,
+				518867323AB43164537E74C331889F54 /* ZSPop.framework */,
 			);
-			path = Classes;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		BB5F014985C08545848CB111D28E837B /* ZSPop */ = {
+		9D391793DF9C838E8E9F32F66E165C13 /* ZSPop */ = {
 			isa = PBXGroup;
 			children = (
-				D37A3CA12186AA8240E873DD41615735 /* ZSPop */,
-				F68CB0BDE48700E19A40B7ECB414651C /* Support Files */,
+				FEE42A3DDA0A39BF3235536E9709AE0B /* Classes */,
 			);
 			name = ZSPop;
-			path = ../..;
+			path = ZSPop;
+			sourceTree = "<group>";
+		};
+		B70B7CFBDF27741319843FB61B599D8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35EFA6C9744FD19D0F12035E7EDF6235 /* Info.plist */,
+				248C108C36AAF52B4D478D631178A5F0 /* ResourceBundle-ZSPop-Info.plist */,
+				55683DE7736A957A8456287537F0E700 /* ZSPop.modulemap */,
+				9610DE88BE4C1FA3290B3F84A62F6D56 /* ZSPop.xcconfig */,
+				7ABE09E81BF0E8D9092927017A732F74 /* ZSPop-dummy.m */,
+				DBCF2D5DFFB598FEE61968CE98524860 /* ZSPop-prefix.pch */,
+				884A0AC72F55E14BB65D8DD01C98207F /* ZSPop-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZSPop";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -174,12 +204,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D37A3CA12186AA8240E873DD41615735 /* ZSPop */ = {
+		C3DD3A748F3012BC55F4B84F94055555 /* ZSPop */ = {
 			isa = PBXGroup;
 			children = (
-				A8DB7DE1B46C73F41E9DA5C9FF30B6B1 /* Classes */,
+				B70B7CFBDF27741319843FB61B599D8C /* Support Files */,
+				9D391793DF9C838E8E9F32F66E165C13 /* ZSPop */,
 			);
-			path = ZSPop;
+			name = ZSPop;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D483B485FC22662DFBA72D8A7B427D58 /* Pods-ZSPop_Example */ = {
@@ -203,41 +235,41 @@
 		DF32EEF377040235F08484E6468B0B1B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BB5F014985C08545848CB111D28E837B /* ZSPop */,
+				C3DD3A748F3012BC55F4B84F94055555 /* ZSPop */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F68CB0BDE48700E19A40B7ECB414651C /* Support Files */ = {
+		FEE42A3DDA0A39BF3235536E9709AE0B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				17F1C2CC09FBC882CF408A03BB536B13 /* Info.plist */,
-				1B0A5575514733AE75758B7F94C574FE /* ZSPop.modulemap */,
-				F6352E3EF67E94EDE0E12E9C5CDB99F6 /* ZSPop.xcconfig */,
-				D9F5790BFAF869EC0427DAE37072EBE6 /* ZSPop-dummy.m */,
-				AA6B6E8471005E2FDB311CA8946B8BB4 /* ZSPop-prefix.pch */,
-				11C34BF0976704C8312B1667C5B76C05 /* ZSPop-umbrella.h */,
+				AAE9A27C9D775B07137D4E60FE721A45 /* JRSwizzle.h */,
+				322E3F98EA5A4937D892294A9DD8607C /* JRSwizzle.m */,
+				A1976664C1AC1701B798263558B6CF03 /* UINavigationController+ZSPopCategory.h */,
+				6218BBEADC1414044C314C234C4BE84C /* UINavigationController+ZSPopCategory.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZSPop";
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B5573EA078F9AA88A38624B6585688C1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D08067DC6D6B0EF866CDE9FD3B5EF59F /* ZSPop-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C01FAC994EF298EE2A468C64FA01284A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F74AE073A72681FCDC44AC84D4294F30 /* Pods-ZSPop_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6C78A8CB8F692E240346F4300B8A3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D2C8CD1BE681DEC43A35E732BC0824 /* JRSwizzle.h in Headers */,
+				0AD727A4FFDB4D74342161D8F1D42F50 /* UINavigationController+ZSPopCategory.h in Headers */,
+				53E8E7ABD23562B9ACF93723A93B8900 /* ZSPop-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +298,7 @@
 			);
 			name = "Pods-ZSPop_Tests";
 			productName = "Pods-ZSPop_Tests";
-			productReference = 736A9967F264379F90D17F401E00F346 /* Pods_ZSPop_Tests.framework */;
+			productReference = 4BBDDD34B933427E85FD29856C6003AF /* Pods_ZSPop_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		44C0C0E4153D833ADAC854D6482D2BC8 /* Pods-ZSPop_Example */ = {
@@ -284,25 +316,44 @@
 			);
 			name = "Pods-ZSPop_Example";
 			productName = "Pods-ZSPop_Example";
-			productReference = 0C2C4A040F27E3B718AD240FDB120CBD /* Pods_ZSPop_Example.framework */;
+			productReference = E3463F06F5081AC9DB3C617B97DF3481 /* Pods_ZSPop_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4A180F1BB28275FC2728C8F9199A8A02 /* ZSPop */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCADAAA1CB2E7F7556EF5B03BAB4DE10 /* Build configuration list for PBXNativeTarget "ZSPop" */;
 			buildPhases = (
-				7F7B242DE8EFEEE3B1D967C9F63588E9 /* Sources */,
+				2355B14B55B5C22F87C79D09148B8425 /* Sources */,
 				19558C874BA47989221FDB10C53D9A77 /* Frameworks */,
-				B5573EA078F9AA88A38624B6585688C1 /* Headers */,
+				9659AF79748E6D7E5655291C64095FEF /* Resources */,
+				DF6C78A8CB8F692E240346F4300B8A3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7CA6E0B40A3C14DE6FF9A1EA56CF510 /* PBXTargetDependency */,
+			);
+			name = ZSPop;
+			productName = ZSPop;
+			productReference = 518867323AB43164537E74C331889F54 /* ZSPop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88BA24504A8E98D3D5D7E3E5EA3EBC91 /* ZSPop-ZSPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3201D2298207D09A3C72B302BFBB150A /* Build configuration list for PBXNativeTarget "ZSPop-ZSPop" */;
+			buildPhases = (
+				C6D0DD93A53192AA36EC5A8E734718AD /* Sources */,
+				30B85C3A81FEF1F1C4718A9396724E05 /* Frameworks */,
+				8B0FD8C462613C514D666E4750BF6C50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ZSPop;
-			productName = ZSPop;
-			productReference = 0D4730A63F4EAB226451C898FDFF2A89 /* ZSPop.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "ZSPop-ZSPop";
+			productName = "ZSPop-ZSPop";
+			productReference = 831B1D19A0E71684D65774B37EACD266 /* ZSPop.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -321,18 +372,47 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 20F1EE928FEDB190629368755337E158 /* Products */;
+			productRefGroup = 8B9DA59E04012951ADDB38A582663F9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				44C0C0E4153D833ADAC854D6482D2BC8 /* Pods-ZSPop_Example */,
 				09C3E5C2AA15EF78C39E3B89B2BB7B6F /* Pods-ZSPop_Tests */,
 				4A180F1BB28275FC2728C8F9199A8A02 /* ZSPop */,
+				88BA24504A8E98D3D5D7E3E5EA3EBC91 /* ZSPop-ZSPop */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		8B0FD8C462613C514D666E4750BF6C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9659AF79748E6D7E5655291C64095FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E9C2DB746ACE1F9E7D4BF44CD9F65F /* ZSPop.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2355B14B55B5C22F87C79D09148B8425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40990D4A86E458F6134EE250EEDF28D4 /* JRSwizzle.m in Sources */,
+				E1E336CA79979E0771F2E6ABB55C0A83 /* UINavigationController+ZSPopCategory.m in Sources */,
+				DCAD94AFCD3370C86F0EDD71135F8B9C /* ZSPop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6B903871BB4F2B99D8A5910AA225FBF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,12 +421,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F7B242DE8EFEEE3B1D967C9F63588E9 /* Sources */ = {
+		C6D0DD93A53192AA36EC5A8E734718AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0FA08332ED8C730CE5786BD3907D4E /* ReplaceMe.m in Sources */,
-				239FCFE34FA24DA5F790524DB2B3BBE4 /* ZSPop-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +444,12 @@
 			name = ZSPop;
 			target = 4A180F1BB28275FC2728C8F9199A8A02 /* ZSPop */;
 			targetProxy = 9F22ED66346093DC07FFCB49C157755D /* PBXContainerItemProxy */;
+		};
+		B7CA6E0B40A3C14DE6FF9A1EA56CF510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZSPop-ZSPop";
+			target = 88BA24504A8E98D3D5D7E3E5EA3EBC91 /* ZSPop-ZSPop */;
+			targetProxy = 5CD4400909E492137AD3EF7E749B7570 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -402,6 +486,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69444CA8956C623F9E3D6F55EE129C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9610DE88BE4C1FA3290B3F84A62F6D56 /* ZSPop.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZSPop";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ZSPop/ResourceBundle-ZSPop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZSPop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -482,7 +583,7 @@
 		};
 		977E212C0D4C863558ECBF9D89B8D497 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6352E3EF67E94EDE0E12E9C5CDB99F6 /* ZSPop.xcconfig */;
+			baseConfigurationReference = 9610DE88BE4C1FA3290B3F84A62F6D56 /* ZSPop.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -627,7 +728,7 @@
 		};
 		E47E865D76B2BF01461BC15D2768463C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6352E3EF67E94EDE0E12E9C5CDB99F6 /* ZSPop.xcconfig */;
+			baseConfigurationReference = 9610DE88BE4C1FA3290B3F84A62F6D56 /* ZSPop.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -656,6 +757,23 @@
 			};
 			name = Debug;
 		};
+		EDADA95031C2F0B0172E1F138F78C177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9610DE88BE4C1FA3290B3F84A62F6D56 /* ZSPop.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZSPop";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ZSPop/ResourceBundle-ZSPop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZSPop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -673,6 +791,15 @@
 			buildConfigurations = (
 				D47198AC68AFA10DE2C987F08816F880 /* Debug */,
 				D5F0E265BA1F927F75667497B40F7424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3201D2298207D09A3C72B302BFBB150A /* Build configuration list for PBXNativeTarget "ZSPop-ZSPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDADA95031C2F0B0172E1F138F78C177 /* Debug */,
+				69444CA8956C623F9E3D6F55EE129C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
