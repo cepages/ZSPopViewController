@@ -24,11 +24,5 @@ a category of UINavigationController for popping the appointed controller.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZSPop/Classes/**/*'
-  
-  s.resource_bundles = {
-    'ZSPop' => ['ZSPop/Assets/*.png']
-  }
-
-  s.public_header_files = 'Pod/Classes/**/*.h'
 
 end
