@@ -24,7 +24,7 @@
 }
 
 - (IBAction)click:(id)sender {
-    ZSTest1ViewController* vc = [[ZSTest1ViewController alloc] initWithNibName:@"ZSTest1ViewController" bundle:nil];
+    ZSTest2ViewController* vc = [[ZSTest2ViewController alloc] initWithNibName:@"ZSTest2ViewController" bundle:nil];
     [self.navigationController pushViewControllerIgnoreSelfWhenBack:vc animated:YES];
 }
 

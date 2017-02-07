@@ -23,7 +23,8 @@
 }
 
 - (IBAction)click:(id)sender {
-    
+    ZSTest3ViewController* vc = [[ZSTest3ViewController alloc] initWithNibName:@"ZSTest3ViewController" bundle:nil];
+    [self.navigationController pushViewControllerIgnoreSelfWhenBack:vc animated:YES];
 }
 
 
